@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FORM PAGE</title>
+  <link rel="stylesheet" href="css/form.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+  <body>
+    <div class="parent">
+      <!-- //carrer objectives -->
+      <div class="career">
+        <h1>Career Objective</h1>
+        <label for="carrer">
+        <input type="text" name="career" id="career" placeholder="Career Objective">
+        </label>
+      </div>
+      <!-- personal info -->
+      <div class="details">
+        <h1>Personal Details</h1>
+        <!-- //<label for="name"> --><!-- </label> -->
+        <input type="text" name="name" id="name" placeholder="enter name"><br>
+        <input type="number" name="phoneno" id="phoneno" placeholder="enter phone number"><br>
+        <input type="email" name="emailid" id="emailid" placeholder="enter your emailid"><br>
+          <input type="text" name="address" id="address" placeholder="enter address"><br>
+      </div>
+      <!-- Education Details -->
+      <div class="details">
+        <h1>Graduation Details</h1>
+         <label for="ginstitute">
+         <select id="ginstitute">
+           <option>SELECT INSTITUTE</option>
+           <option>MITS</option>
+           <option>VISWAM</option>
+           <option>GOLDEN VALLEY</option>
+           <option>SREENIVASA DEGREE COLLEGE</option>
+         </select>
+         </label><br>
+         <!-- branch -->
+         <select id="gbranch">
+           <option>SELECT BRANCH</option>
+           <option>CSE</option>
+           <option>ECE</option>
+           <option>EEE</option>
+           <option>ME</option>
+           <option>CE</option>
+         </select><br>
+         <select id="gyear">
+           <option>SELECT yop</option>
+           <option>2021</option>
+           <option>2022</option>
+           <option>2023</option>
+           <option>2024</option>
+         </select><br>
+           <input type="text" name="gpercentage"id="gpercentage" placeholder="enter your gpercentage">
+         <br>
+      </div>
+      <div class="details">
+        <h1>Intermediate Details</h1>
+         <label for="iinstitute">
+         <select id="iinstitute">
+           <option>SELECT INSTITUTE</option>
+           <option>CHAITANYA JUNIOR COLLEGE</option>
+           <option>NARAYANA JUNIOR COLLEGE</option>
+           <option>SIDDHARTHA JUNIOR COLLEGE</option>
+           <option>SREENIVASA JUNIOR COLLEGE</option>
+         </select>
+         </label><br>
+         <!-- branch -->
+         <select id="ibranch">
+           <option>SELECT BRANCH</option>
+           <option>MPC</option>
+           <option>BIPC</option>
+           <option>MEC</option>
+           <option>HEC</option>
+           <option>CEC</option>
+         </select><br>
+         <select id="iyear">
+           <option>SELECT yop</option>
+           <option>2017</option>
+           <option>2018</option>
+           <option>2019</option>
+           <option>2020</option>
+         </select><br>
+           <input type="text" name="ipercentage"id="ipercentage" placeholder="enter your Ipercentage">
+         <br>
+      </div>
+      <div class="details">
+        <h1>SSC Details</h1>
+         <label for="sscinstitute">
+         <select id="sscinstitute">
+           <option>SELECT INSTITUTE</option>
+           <option>KESHAVA REDDY ENGLISH MEDIUM HIGH SCHOOL</option>
+           <option>CHAITANYA ENGLISH MEDIUM HIGH SCHOOL</option>
+           <option>NARAYANA ENGLISH MEDIUM HIGH SCHOOL</option>
+           <option>RISHIVALLEY ENGLISH MEDIUM HIGH SCHOOL</option>
+         </select>
+         </label><br>
+         <!-- branch -->
+         <select id="sscbranch">
+           <option>SELECT BRANCH</option>
+           <option>SSC</option>
+           <option>CBSE</option>
+           <option>ICSE</option>
+         </select><br>
+         <select id="sscyear">
+           <option>SELECT yop</option>
+           <option>2015</option>
+           <option>2016</option>
+           <option>2017</option>
+           <option>2018</option>
+         </select><br>
+           <input type="text" name="sscpercentage"id="sscpercentage" placeholder="enter your sscpercentage">
+         <br>
+      </div>
+      <div class="skills">
+        <h1>SKILLS</h1>
+       <input type="text" name="skills"id="skills" placeholder="enter your skills">
+
+    </div>
+        <button type="button" name="button" id="button" onclick="savedata()">SAVE</button>
+        <button type="button" name="button" id="button" onclick="submitdata()">SUBMIT</button>
+    </div>
+    <script type="text/javascript" src="js/main.js">
+    </script>
+  </body>
+</html>

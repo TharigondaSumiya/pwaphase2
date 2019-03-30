@@ -1,0 +1,42 @@
+body{
+  background:aqua;
+}
+header{
+  background:pink;
+  font-weight: bolder;
+  text-align: center;
+  font-style: oblique;
+}
+img{
+  float:right;
+  width:15%;
+  height:15%;
+}
+a{
+  float: right;
+  text-align: right;
+}
+.child{
+  width:100px;
+  padding:1%;
+  margin:1%;
+  border-radius: 1px solid black;
+  /* display:block; */
+  background-color:#D8BFD8;
+  justify-content: space-around;
+}
+.child img{
+  width:100px;
+  height:100px;
+  color:lightgray;
+  background-color:#00FF7F;
+  border-radius: 2px solid:black;
+  float:none;
+}
+.link{
+  text-decoration: none;
+  background-color:#E25D79;
+  color:aqua;
+  text-align:center;
+  float:none;
+}
